@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5FC659C-861A-46CC-B8F6-B8D0C01C4370}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Assignemnt01</RootNamespace>
+    <AssemblyName>A01</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ClassAdmin.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="Timetable.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="RoomAdmin.cs" />
+    <Compile Include="StudentAdmin.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="ClassPeriod.cs" />
+    <Compile Include="CommonFunctions.cs" />
+    <Compile Include="Course.cs" />
+    <Compile Include="CourseAdmin.cs" />
+    <Compile Include="Lecturer.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="RunMain.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="LecturerAdmin.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="TestHN.cs" />
+    <Compile Include="AdminControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

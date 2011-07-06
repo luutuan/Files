@@ -1,0 +1,7 @@
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\bin\Debug\A01.exe
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\bin\Debug\A01.pdb
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\obj\x86\Debug\ResolveAssemblyReference.cache
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\obj\x86\Debug\A01.exe
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\obj\x86\Debug\A01.pdb
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\bin\Debug\A01.exe.CodeAnalysisLog.xml
+\\psf\Home\Documents\dotNet\Assignment\A01\A01\bin\Debug\A01.exe.lastcodeanalysissucceeded

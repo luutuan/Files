@@ -1,0 +1,28 @@
+using System;
+namespace Assignemnt01
+{
+	public class RunMain
+	{
+
+		
+		static void Main ()
+		{
+			try {
+				Program pg = new Program ();
+				pg.ProgramControl ();
+				//TestHN test = new TestHN ();
+				//test.RunTest();
+			} catch (Exception e) {
+				Console.WriteLine ("Exception: " + e.Message);
+			}
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+	}
+}
